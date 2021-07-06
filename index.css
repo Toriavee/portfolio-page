@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    display:flex;
+    background-color: blanchedalmond;
+
+
+}
+.container {
+    position: absolute;
+    display: grid;
+    flex: content;
+    
+}
+
+    
+.column {
+    width: 50%;
+    float: left;
+    position: static;
+    
+}
+.content:after {
+    display:table;
+    content: "";
+    
+}
+
+
+.paragraph-1 {
+    padding-top: 300px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 60px;
+    letter-spacing: 2%;
+    color: rgb(17, 16, 16);
+    line-height: 60px;
+}
+.Paragraph-2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #3a3939f3;
+}
+.icons {
+    letter-spacing: 5px;
+    color: rgb(17, 16, 16);
+    margin-top: 40px;
+}
+.year {
+    color: rgb(252, 96, 6);
+    font-family: 'Roboto', sans-serif;
+}
+.work-experience {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #3a3939f3;
+    margin-right: 40%;
+
+}
+.skills {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: lighter;
+    color: #3a3939f3;
+}
+#info {
+    display: flex;
+}
+
+#icons {
+    color: chocolate; 
+    margin-right: 10px;
+    text-align: justify;
+}
+.form {
+    justify-content: space-between;
+    height: 100%;
+    border-left: 30px;
+    height: 190px;
+}
+#form {
+    height: 90%;
+}
+.form .inner-form {
+    width: 40%;
+    height: 90%;
+}
+.progress {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 20px;
+    color: chocolate;
+}
+#button {
+    font-size: 16px;
+    background: black;
+    border-color: black;
+    border-radius: 0px;
+    font-weight: bold;
+    color: white;
+    width: 220px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+input {
+    width: 50%;
+    height: 200%;
+    color: #3a3939f3;
+    border-color: #3a3939f3;
+    border: 0px;
+    display: inline-block;
+}
+
+@media (min-width: 750px) {
+    .container {
+        display: flex;
+    }
+}
